@@ -50,6 +50,6 @@ That's it.
 
 Happy APEXing!!!...
 
-**References:**
+# References:
 
 https://docs.oracle.com/en/database/oracle/application-express/20.2/aeapi/GET_INPUT_NAME_FOR_PAGE_ITEM-Function.html#GUID-6E53D97A-0710-4203-9F20-8F4B2153A2E1
