@@ -40,7 +40,9 @@ Plugin will be listed under plug-ins bucket after successful installation.
 
 ![image](https://user-images.githubusercontent.com/85283603/121245466-1dd1fe00-c8b1-11eb-8251-03312ca5f699.png)
 
-**Output:** Then you output would display like this,
+# Output: 
+
+Then you output would display like this,
 
 ![image](https://user-images.githubusercontent.com/85283603/121245551-35a98200-c8b1-11eb-851a-f4da1780fe99.png)
 
