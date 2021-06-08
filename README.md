@@ -1,8 +1,13 @@
 # Oracle APEX Plug-In: Number Field with Decimal
 
-It's a Number Field with Decimal Plugin In, which allow only Numeric Values and allow one DOT in Number Field
+It's a Number Field with Decimal Plugin In, which allow only Numeric Values and allow one DOT in Number Field.
 
 Demo Application: https://apex.oracle.com/pls/apex/f?p=113036:9999::BRANCH_TO_PAGE_ACCEPT::9999:P9999_APP_PAGE_REDIRECT:35
+
+**Prerequisite:**
+
+**DB versions:**	11.2.0.1,12.1.0.1,12.2.0.1,18.4.0.0,19.0.0.0.0,19.2.0.0.19,21.0.0.0.0,21.1.0.0.0,21.1.0.0.1
+**APEX versions**	5.1.3,18.1.0.00.45,18.2.0.00.12,19.1.0.00.15,19.2.0.00.18,20.1.0.00.13,20.2.0.00.20,21.1.0
 
 **Installation:**
 
