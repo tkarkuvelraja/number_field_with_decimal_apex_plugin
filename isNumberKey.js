@@ -13,22 +13,57 @@
  * Profile: https://www.linkedin.com/in/karkuvelrajathangamariappan
  * Twitter: https://twitter.com/tkarkuvelraja
  * Blog: http://orclking.blogspot.com/
+ * Reference: https://stackoverflow.com/questions/9799505/allow-only-numbers-and-dot-in-script
  */
  
-function isNumberKey(element) {
-    var keyPressed = (event.which) ? event.which : (window.event.keyCode) ? window.event.keyCode : -1;
-	console.log (keyPressed); 
-    if ((keyPressed == 45) && (keyPressed >= 48) && (keyPressed <= 57)) {
+function isNumberKey(id,decimalpoints) {
+    if (event.keyCode > 47 && event.keyCode < 58 || event.keyCode == 46) {
+        //  var txtbx=document.getElementById(txt);
+        var amount = document.getElementById(id).value;
+        var dotpresent = 0;
+        var count = 0;
+
+        if (amount.indexOf(".", dotpresent) || amount.indexOf(".", dotpresent + 1)); {
+            // alert('0');
+        }
+
+        do {
+            dotpresent = amount.indexOf(".", dotpresent);
+            if (dotpresent != -1) {
+                count++;
+                dotpresent++;
+            }
+        }
+        while (dotpresent != -1);
+        if (dotpresent == -1 && amount.length == 0 && event.keyCode == 46) {
+            event.keyCode = 0;
+            alert("Wrong position of decimal point not  allowed !!");
+            return false;
+        }
+
+        if (count >= 1 && event.keyCode == 46) {
+
+            event.keyCode = 0;
+            alert("Only one decimal point is allowed !!");
+            return false;
+        }
+        if (count == 1) {
+            var lastdigits = amount.substring(amount.indexOf(".") + 1, amount.length);
+            if (lastdigits.length >= decimalpoints) {
+				let str = decimalpoints;
+				str += ' ';
+				str += 'decimal places only allowed';
+				str;
+                alert(str);
+                event.keyCode = 0;
+                return false;
+            }
+        }
         return true;
+    } else {
+        event.keyCode = 0;
+        alert("Only Numbers with dot allowed !!");
+        return false;
     }
 
-    // '.' checking decimal point...
-    else if (keyPressed == 46) {
-        // Allow only 1 decimal point ('.')...  
-        if ((element.value) && (element.value.indexOf('.') >= 0))
-            return false;
-        else
-            return true;
-    }
-    return false;
 }
