@@ -40,16 +40,19 @@ Plugin will be listed under plug-ins bucket after successful installation.
 
 ![image](https://user-images.githubusercontent.com/85283603/121350649-fc6a2400-c93b-11eb-9164-a8492b066195.png)
 
+**Element Text Position** - Position of the field value (Left/Right)
+
+**Min. Value** - Specifies the minimum value allowed
+
+**Max. Value** - Specifies the maximum value allowed
+
+**Digits** - Specifies the decimal value allowed
+
 # Output: 
 
 Then you output would display like this,
 
-![image](https://user-images.githubusercontent.com/85283603/121245551-35a98200-c8b1-11eb-851a-f4da1780fe99.png)
-
-**Element Text Position** - Position of the field value (Left/Right)
-**Min. Value** - Specifies the minimum value allowed
-**Max. Value** - Specifies the maximum value allowed
-**Digits** - Specifies the decimal value allowed
+![image](https://user-images.githubusercontent.com/85283603/121351212-94680d80-c93c-11eb-94f2-e2d8c1a0ad04.png)
 
 That's it.
 
