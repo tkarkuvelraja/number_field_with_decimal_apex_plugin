@@ -27,7 +27,7 @@
       "plugin" : {
         "internalName" : "ORCLKING.NUMBER.FIELD.WITH.DECIMAL",
         "type" : "item",
-        "demo" : "https://apex.oracle.com/pls/apex/f?p=113036:9999::BRANCH_TO_PAGE_ACCEPT::9999:P9999_APP_PAGE_REDIRECT:34",
+        "demo" : "https://apex.oracle.com/pls/apex/f?p=113036:9999::BRANCH_TO_PAGE_ACCEPT::9999:P9999_APP_PAGE_REDIRECT:35",
         "previewImage" : "https://raw.githubusercontent.com/tkarkuvelraja/number_field_with_decimal_apex_plugin/master/preview.PNG"
       }
     }
