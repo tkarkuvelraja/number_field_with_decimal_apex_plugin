@@ -22,8 +22,10 @@ function isNumberKey(id,decimalpoints) {
         var amount = document.getElementById(id).value;
         var dotpresent = 0;
         var count = 0;
-
-        if (amount.indexOf(".", dotpresent) || amount.indexOf(".", dotpresent + 1)); {
+console.log (dotpresent);
+console.log (count);
+//console.log (amount.indexOf(".", dotpresent));
+        if ( amount.indexOf(".", dotpresent + 1)); {
             // alert('0');
         }
 
@@ -47,6 +49,14 @@ function isNumberKey(id,decimalpoints) {
             alert("Only one decimal point is allowed !!");
             return false;
         }
+		
+		 if (amount.length > 0 && count >= 1 && event.keyCode == 46) {
+
+            event.keyCode = 0;
+            alert("Only one decimal point is allowed !!");
+            return false;
+        }
+		
         if (count == 1) {
             var lastdigits = amount.substring(amount.indexOf(".") + 1, amount.length);
             if (lastdigits.length >= decimalpoints) {
