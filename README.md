@@ -38,13 +38,18 @@ Plugin will be listed under plug-ins bucket after successful installation.
 
 **Step 5:** In the Settings section you can choose some options. The image below shows all the available options.
 
-![image](https://user-images.githubusercontent.com/85283603/121245466-1dd1fe00-c8b1-11eb-8251-03312ca5f699.png)
+![image](https://user-images.githubusercontent.com/85283603/121350649-fc6a2400-c93b-11eb-9164-a8492b066195.png)
 
 # Output: 
 
 Then you output would display like this,
 
 ![image](https://user-images.githubusercontent.com/85283603/121245551-35a98200-c8b1-11eb-851a-f4da1780fe99.png)
+
+**Element Text Position** - Position of the field value (Left/Right)
+**Min. Value** - Specifies the minimum value allowed
+**Max. Value** - Specifies the maximum value allowed
+**Digits** - Specifies the decimal value allowed
 
 That's it.
 
