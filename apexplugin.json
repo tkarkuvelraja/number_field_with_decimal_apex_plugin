@@ -1,7 +1,7 @@
 {
   "name" : "Number Field with Decimal",
   "version" : "1.0",
-  "description" : "It's a Number Field with Decimal Plugin In, which allow only Numeric Values and Only one DOT in Number Field",
+  "description" : "It's a number field with decimal Plugin In, which allow only numeric Values and only one dot in Number Field",
   "keywords" : ["Item", "Number Field", "Number Field with Decimal"],
   "homepage" : "https://github.com/tkarkuvelraja/number_field_with_decimal_apex_plugin",
   "bugs" : {
